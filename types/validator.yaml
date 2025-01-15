@@ -124,4 +124,4 @@ Focil:
       description: "Index of validator in validator registry."
     slot:
       $ref: "./primitive.yaml#/Uint64"
-      description: "The slot at which the validator must propose inclusion list." 
+      description: "The slot at which the validator must propose an inclusion list." 
