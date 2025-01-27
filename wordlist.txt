@@ -36,4 +36,5 @@ KZGProof
 KZGProofs
 KZGCommitmentInclusionProof
 LMD
+EIPs
 focil
