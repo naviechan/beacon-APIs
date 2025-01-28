@@ -115,7 +115,7 @@ SignedAggregateAndProof:
 Focil:
  InclusionListDuty:
   type: object
-  required: [pubkey, validator_index, slot]
+  required: [pubkey, validator_index, slot, inclusion_list_committee_root]
   properties:
     pubkey:
       $ref: "./primitive.yaml#/Pubkey"
@@ -125,3 +125,6 @@ Focil:
     slot:
       $ref: "./primitive.yaml#/Uint64"
       description: "The slot at which the validator must propose an inclusion list." 
+    inclusion_list_committee_root:
+      $ref: "./primitive.yaml#/Root"
+      description: "The root of inclusion list committee that the duty is part of" 
