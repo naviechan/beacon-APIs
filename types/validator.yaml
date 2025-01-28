@@ -127,4 +127,4 @@ Focil:
       description: "The slot at which the validator must propose an inclusion list." 
     inclusion_list_committee_root:
       $ref: "./primitive.yaml#/Root"
-      description: "The root of inclusion list committee that the duty is part of" 
+      description: "The root of inclusion list committee that the validator is part of."
